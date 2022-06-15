@@ -19,7 +19,7 @@ var svgDoc;
 function loadPlots(plot_id){
 
     j.ajax({
-        url:"http://127.0.0.1/cotizador%20local/Agua_Miel/Aguamiel_SVG_WEB",
+        url:"https://github.com/Jesus1197/Jesus1197/blob/1b47b647cb48d76bd4a2ffdb24428056911cd891/Aguamiel_SVG_WEB",
         dataType: 'JSON',
         cache: 'falso',
         seccess: function(response){
